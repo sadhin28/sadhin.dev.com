@@ -2,6 +2,13 @@ import { TypeAnimation } from "react-type-animation";
 import ReactiveButton from "reactive-button";
 
 const Hero = () => {
+      const scrollToSection = (id) => {
+        console.log(id)
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className="mt-16">
        <div className="flex flex-col md:flex-row justify-around items-center mt-10 px-4">
@@ -44,12 +51,16 @@ const Hero = () => {
         </div>
       </div>
        </div>
-       <div className="flex mt-10 sm:flex-row gap-20 justify-center items-center animate-fade-in-up animate-delay-400">
-          <ReactiveButton rounded 
+       <div className="flex mt-10 sm:flex-row gap-20 justify-center items-center animate-fade-in-up animate-delay-400 ">
+          <ReactiveButton outline
+           onClick={()=>scrollToSection('projects')}  
+          color="green"
           idleText=' View My Work'
           size="lerge"
           />
-          <ReactiveButton outline 
+          <ReactiveButton
+         
+          color="yellow"
           idleText='Download CV'
           size="lerge"
           />

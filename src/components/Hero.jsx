@@ -1,3 +1,5 @@
+import { Github, GithubIcon, Linkedin, Mail } from "lucide-react";
+import { GrGithub } from "react-icons/gr";
 import { TypeAnimation } from "react-type-animation";
 import ReactiveButton from "reactive-button";
 
@@ -15,13 +17,13 @@ const Hero = () => {
           {/* Left div */}
       <div className="mt-10 md:mt-20 md:w-1/2 text-center md:text-left">
         <div className="space-y-4">
-          <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold leading-tight animate-fade-in-up">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
             Hi,&nbsp;
             <TypeAnimation
               sequence={[
                 "I am Taosif Bin Sadhin",
                 2000,
-                "I am a MERN Stack Developer",
+                "I am a MERN Stack Web Developer",
                 2000,
               ]}
               wrapper="span"
@@ -66,6 +68,31 @@ const Hero = () => {
           />
             
            
+          </div>
+           {/* Social Links */}
+          <div className=" mt-12 flex justify-center space-x-10 animate-fade-in-up animate-delay-600">
+             <a 
+              href="https://github.com/sadhin28" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 bg-card hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110 border border-border hover:border-green-500"
+            >
+              <GrGithub className="h-6 w-6" />
+            </a>
+             <a 
+              href="https://www.linkedin.com/in/taosif-bin-sadhin-527899368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 bg-card hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110 border border-border hover:border-green-500"
+            >
+              <Linkedin className="h-6 w-6" />
+            </a>
+            <button 
+              onClick={() => scrollToSection('contact')}
+              className="p-3 bg-card hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110 border border-border hover:border-green-500"
+            >
+              <Mail className="h-6 w-6" />
+            </button>
           </div>
     </div>
   );

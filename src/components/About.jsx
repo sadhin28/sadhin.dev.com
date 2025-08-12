@@ -54,7 +54,7 @@ const About = () => {
                             {["JavaScript", "TypeScript", "React", "Node.js", "Express.js", "MongoDB"].map((tech) => (
                                 <span
                                     key={tech}
-                                    className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm font-medium"
+                                    className="px-3 py-1 bg-green-600/40 text-primary rounded-full text-sm font-medium"
                                 >
                                     {tech}
                                 </span>
@@ -67,7 +67,7 @@ const About = () => {
                         {highlights.map((item, index) => (
                             <div
                                 key={index}
-                                className="p-6 bg-card rounded-xl border border-border hover:border-primary/50 transition-all duration-300 hover:scale-105 group"
+                                className="p-6  bg-gray-600/10 backdrop-blur-lg  rounded-xl border border-border hover:border-green-600/50 transition-all duration-300 hover:scale-105 group"
                             >
                                 <div className="text-primary mb-4 group-hover:scale-110 transition-transform duration-300">
                                     {item.icon}

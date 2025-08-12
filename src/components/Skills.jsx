@@ -89,7 +89,7 @@ const Skills = () => {
                         ].map((tech) => (
                             <span
                                 key={tech}
-                                className="px-4 py-2 bg-red-400/10 text-red-500 rounded-lg font-medium hover:text-green-500/50  transition-colors duration-300"
+                                className="px-4 py-2 bg-red-400/20 text-red-500 rounded-lg font-medium hover:text-green-500  transition-colors duration-300"
                             >
                                 {tech}
                             </span>

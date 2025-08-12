@@ -10,8 +10,8 @@ const Hero = () => {
     }
   };
   return (
-    <div className="mt-16">
-       <div className="flex flex-col md:flex-row justify-around items-center mt-10 px-4">
+    <div className="min-h-screen">
+       <div className="flex mt-10 flex-col md:flex-row justify-around items-center  px-4">
           {/* Left div */}
       <div className="mt-10 md:mt-20 md:w-1/2 text-center md:text-left">
         <div className="space-y-4">

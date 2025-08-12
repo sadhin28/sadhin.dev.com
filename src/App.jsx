@@ -5,10 +5,10 @@ function App() {
 
   return (
     <>
-     <div className=''>
+     <div className='bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white'>
        <Navbar></Navbar>
-       
          <Hero></Hero>
+       
       
      
      </div>

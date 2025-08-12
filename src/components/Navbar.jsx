@@ -14,22 +14,22 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 w-full z-50  bg-background/80 backdrop-blur-lg border-b border-border">
+    <nav className="fixed text-white top-0 w-full z-50 bg-gradient-to-br from-black via-gray-900 to-gray-800  bg-background/80 backdrop-blur-lg border-b border-black border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 text-2xl font-bold text-blue-600">
-            <h1 className="text-gray-700 font-bold">T.B SADHIN</h1>
+            <h1 className="text-white font-bold">T.B SADHIN</h1>
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden  md:flex space-x-6">
             {navLinks.map((link) => (
              <a
              
               href={link.href}
               key={link.name}
-             className="block text-gray-700 font-bold  hover:text-blue-600 transition"
+             className="block text-white font-bold  hover:text-blue-600 transition"
             >
                 {link.name}
              </a>

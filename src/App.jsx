@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/About'
 import ContactForm from './components/Contact'
+import Footer from './components/Footer'
 import GitHubContributions from './components/Githubcontributions'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
@@ -18,6 +19,7 @@ function App() {
        <Projects></Projects>
        <GitHubContributions></GitHubContributions>
        <ContactForm></ContactForm>
+       <Footer></Footer>
      </div>
     </>
   )

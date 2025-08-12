@@ -12,24 +12,24 @@ const Hero = () => {
     }
   };
   return (
-    <div className="min-h-screen">
+    <div id="home" className="md:mb-20 mb-10">
        <div className="flex mt-10 flex-col md:flex-row justify-around items-center  px-4">
           {/* Left div */}
       <div className="mt-10 md:mt-20 md:w-1/2 text-center md:text-left">
         <div className="space-y-4">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
-            Hi,&nbsp;
+            Hi, I am &nbsp;
             <TypeAnimation
               sequence={[
-                "I am Taosif Bin Sadhin",
+                "Taosif Bin Sadhin",
                 2000,
-                "I am a MERN Stack Web Developer",
+                "a MERN Stack Web Developer",
                 2000,
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              className="gradient-text"
+              className="text-red-500"
             />
           </h1>
 

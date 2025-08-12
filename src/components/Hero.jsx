@@ -88,7 +88,7 @@ const Hero = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <button 
-              onClick={() => scrollToSection('contact')}
+              onClick={()=>scrollToSection('contact')} 
               className="p-3 bg-card hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110 border border-border hover:border-green-500"
             >
               <Mail className="h-6 w-6" />

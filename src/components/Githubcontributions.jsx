@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import GitHubCalendar from "react-github-calendar";
 
 const GitHubContributions = () => {
@@ -49,7 +49,7 @@ const GitHubContributions = () => {
   }
 
   return (
-    <section className=" py-10 text-center ">
+    <section className=" pb-10 text-center ">
       <h2 className="text-2xl py-5 font-bold mb-4 text-white">My GitHub Contributions</h2>
      <div className="gap-10 md:flex md:flex-row-reverse md:justify-center px-5">
         <div >

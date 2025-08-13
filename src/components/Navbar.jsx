@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 text-2xl font-bold text-blue-600">
-            <h1 className="text-white font-bold">T.B <span className="text-red-500">SADHIN</span></h1>
+            <h1 className="text-white font-bold">T.B <span className="text-green-500">SADHIN</span></h1>
           </div>
 
           {/* Desktop Menu */}
@@ -34,7 +34,7 @@ const Navbar = () => {
                     element.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="text-white-800 text-xl hover:underline hover:underline-offset-4 decoration-transparent hover:decoration-blue-500 transition-colors duration-700"
+                className="text-white-800 text-xl hover:underline hover:underline-offset-4 decoration-transparent hover:decoration-green-500 transition-colors duration-700"
               >
                 {link.name}
               </button>

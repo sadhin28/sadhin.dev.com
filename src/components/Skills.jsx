@@ -39,7 +39,7 @@ const Skills = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 animate-fade-in-up">
-                        My <span className="text-red-500">Skills</span>
+                        My <span className="text-green-500">Skills</span>
                     </h2>
                     <p className="text-xl text-gray-400 text-muted-foreground max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
                         A comprehensive toolkit for building modern web applications from frontend to backend
@@ -65,7 +65,7 @@ const Skills = () => {
                                         </div>
                                         <div className="w-full bg-white rounded-full h-2">
                                             <div
-                                                className="h-2  bg-red-500 to-accent rounded-full transition-all duration-1000 ease-out"
+                                                className="h-2  bg-green-500 to-accent rounded-full transition-all duration-1000 ease-out"
                                                 style={{
                                                     width: `${skill.level}%`,
                                                     animationDelay: `${(categoryIndex * 0.2) + (skillIndex * 0.1)}s`
@@ -82,14 +82,14 @@ const Skills = () => {
                 {/* Additional Tech Stack */}
                 <div className="mt-16 text-center animate-fade-in-up animate-delay-600">
                     <h3 className="text-xl  font-semibold mb-6">Technologies I Work With</h3>
-                    <div className="flex flex-wrap justify-center gap-4">
+                    <div className="flex  flex-wrap justify-center gap-4">
                         {[
                             "React", "Node.js", "Express.js", "MongoDB", "JavaScript", "TypeScript",
                             "HTML5", "CSS3", "Tailwind CSS", "Git", "GitHub", "VS Code", "Postman", "Figma", "Pixo"
                         ].map((tech) => (
                             <span
                                 key={tech}
-                                className="px-4 py-2 bg-red-400/20 text-red-500 rounded-lg font-medium hover:text-green-500  transition-colors duration-300"
+                                className="px-4 hover:shadow-lg py-2 bg-green-400/50  text--500 rounded-lg font-medium hover:text-blue-500  transition-colors duration-300"
                             >
                                 {tech}
                             </span>

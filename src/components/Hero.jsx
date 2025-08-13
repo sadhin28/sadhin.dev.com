@@ -29,11 +29,11 @@ const Hero = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              className="text-red-500"
+              className="text-green-500"
             />
           </h1>
 
-          <p className="text-gray-400 md:w-1/2 text-sm md:text-xl text-muted-foreground max-w-3xl animate-fade-in-up animate-delay-200 text-justify">
+          <p className="text-gray-400 md:max-w-md text-sm md:text-xl text-muted-foreground max-w-3xl animate-fade-in-up animate-delay-200 text-justify">
             Crafting seamless full-stack experiences with MongoDB,Express.js, React, and Node.js
           </p>
         </div>

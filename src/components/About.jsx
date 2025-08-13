@@ -28,7 +28,7 @@ const About = () => {
             <div className="max-w-7xl mx-auto ">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 animate-fade-in-up">
-                        About <span className="text-red-500">Me</span>
+                        About <span className="text-green-500">Me</span>
                     </h2>
                     <p className="text-xl text-gray-400 text-justify text-muted-foreground max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
                         Passionate full-stack developer with expertise in the MERN stack, dedicated to creating
@@ -54,7 +54,7 @@ const About = () => {
                             {["JavaScript", "TypeScript", "React", "Node.js", "Express.js", "MongoDB"].map((tech) => (
                                 <span
                                     key={tech}
-                                    className="px-3  py-1 bg-green-600/40 text-primary rounded-full text-sm font-medium"
+                                    className="px-3  py-1 bg-green-400/40  rounded-full text-sm font-medium"
                                 >
                                     {tech}
                                 </span>

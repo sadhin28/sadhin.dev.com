@@ -3,6 +3,7 @@ import emailjs from "emailjs-com";
 import ReactiveButton from "reactive-button";
 import { BsGithub, BsTwitter } from "react-icons/bs";
 import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { toast } from "react-toastify";
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -27,7 +28,7 @@ const ContactForm = () => {
 
         emailjs.send(serviceID, templateID, formData, userID).then(
             (response) => {
-                response && alert('message send successfully')
+                response && toast.success("Message sent successfully!")
                 setStatus("Message sent successfully!");
                 setFormData({
                     from_name: "",
@@ -37,6 +38,7 @@ const ContactForm = () => {
                 });
             },
             (error) => {
+                error && toast.error('Failed to send message, please try again.')
                 setStatus("Failed to send message, please try again.");
             }
         );

@@ -33,14 +33,14 @@ const Hero = () => {
             />
           </h1>
 
-          <p className="text-xl text-gray-400 sm:text-2xl text-muted-foreground max-w-3xl animate-fade-in-up animate-delay-200 text-justify">
-            Crafting seamless full-stack experiences with MongoDB, Express.js, React, and Node.js
+          <p className="text-gray-400 md:w-1/2 text-sm md:text-xl text-muted-foreground max-w-3xl animate-fade-in-up animate-delay-200 text-justify">
+            Crafting seamless full-stack experiences with MongoDB,Express.js, React, and Node.js
           </p>
         </div>
       </div>
 
       {/* Right div */}
-      <div className="mt-10 md:mt-20 w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 relative">
+      <div className=" mt-10 md:mt-40 w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 relative">
         {/* Animated gradient border */}
         <div className="absolute inset-0 rounded-full p-[3px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 to-red-500">
           <div className="w-full h-full rounded-full bg-white flex items-center justify-center">

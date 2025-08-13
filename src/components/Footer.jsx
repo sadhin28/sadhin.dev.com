@@ -18,7 +18,7 @@ const Footer = () => {
                             onClick={scrollToTop}
                             className="text-2xl font-bold gradient-text hover:scale-105 transition-transform"
                         >
-                            <h1>T.B <span className="text-red-500">SADHIN</span></h1>
+                            <h1>T.B <span className="text-green-500">SADHIN</span></h1>
                         </button>
                         <p className="text-muted-foreground">
                             MERN Stack Developer crafting beautiful and functional web experiences.

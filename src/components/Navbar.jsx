@@ -3,13 +3,14 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
+ 
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
-    { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
+    { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -25,14 +26,18 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden  md:flex space-x-6">
             {navLinks.map((link) => (
-             <a
-             
-              href={link.href}
-              key={link.name}
-             className="block text-white font-bold  hover:text-blue-600 transition"
-            >
+              <button
+                key={link.href}
+                onClick={() => {
+                  const element = document.getElementById(link.name.toLowerCase());
+                  if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="text-white-800 text-xl hover:underline hover:underline-offset-4 decoration-transparent hover:decoration-blue-500 transition-colors duration-700"
+              >
                 {link.name}
-             </a>
+              </button>
             ))}
           </div>
 
@@ -47,17 +52,24 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-lg">
-          <div className="px-2 pt-2 pb-3 space-y-1">
+        <div className="md:hidden  shadow-lg">
+          <div className="px-2  pt-2 pb-3 space-y-1">
             {navLinks.map((link) => (
-              <a
+              <button
+               
                 key={link.name}
-                href={link.href}
-                className="block text-gray-700 font-bold  hover:text-blue-600 transition"
-                onClick={() => setIsOpen(false)}
+                  onClick={() => {
+                  setIsOpen(false)
+                  const element = document.getElementById(link.name.toLowerCase());
+                  if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="block hover:rounded-xl w-full hover:border hover:border-blue-500 text-start p-2  text-white font-bold  hover:text-blue-600 transition"
+               
               >
                 {link.name}
-              </a>
+              </button>
             ))}
           </div>
         </div>

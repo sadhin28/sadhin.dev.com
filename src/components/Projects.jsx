@@ -80,7 +80,7 @@ const Projects = () => {
                             <div className={`h-48  relative overflow-hidden`}>
 
                                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-300">
-                                    <img src={project.image} alt="" />
+                                    <img src={project.image} className='' alt="" />
                                 </div>
 
                             </div>

@@ -112,7 +112,7 @@ const Projects = () => {
                                         className='rounded'
                                         color="green"
                                         idleText={
-                                            <a className='flex' href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                                            <a className='flex items-center' href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                                                 <BsGithub className="mr-2 h-4 w-4" />
                                                 Code
                                             </a>
@@ -123,7 +123,7 @@ const Projects = () => {
                                         className='rounded'
                                         color="primary"
                                         idleText={
-                                            <a className='flex' href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                                            <a className='flex items-center' href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                                                 <ExternalLink className="mr-2 h-4 w-4" />
                                                 Live Demo
                                             </a>
@@ -144,7 +144,7 @@ const Projects = () => {
                     <ReactiveButton outline
 
                         color="primary"
-                        idleText={<a className='flex p-1' href="https://github.com/sadhin28" target="_blank" rel="noopener noreferrer">
+                        idleText={<a className='flex p-1 items-center' href="https://github.com/sadhin28" target="_blank" rel="noopener noreferrer">
                             <BsGithub className="mr-2 h-5 w-5" />
                             View All Projects on GitHub
                         </a>}

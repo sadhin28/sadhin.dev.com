@@ -88,7 +88,7 @@ const ContactForm = () => {
 
                 <div className="md:w-1/2 px-4 text-gray-400">
                     <h2 id="contact" className="text-3xl  md:text-4xl font-bold text-white py-3">
-                        Get In <span className="text-red-500">Touch</span>
+                        Get In <span className="text-green-500">Touch</span>
                     </h2>
                     <p className="text-justify">I'm always excited to collaborate on new projects and discuss innovative solutions. Whether you need a full-stack web application, consultation on MERN stack development, or just want to say hello, I'd love to hear from you.</p>
                     {/* Contact Details */}

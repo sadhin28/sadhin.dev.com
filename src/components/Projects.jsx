@@ -142,8 +142,8 @@ const Projects = () => {
                 {/* More Projects CTA */}
                 <div className="text-center  mt-12 animate-fade-in-up animate-delay-800">
                     <ReactiveButton outline
-
-                        color="primary"
+                        className='rounded'
+                        color="green"
                         idleText={<a className='flex p-1 items-center' href="https://github.com/sadhin28" target="_blank" rel="noopener noreferrer">
                             <BsGithub className="mr-2 h-5 w-5" />
                             View All Projects on GitHub

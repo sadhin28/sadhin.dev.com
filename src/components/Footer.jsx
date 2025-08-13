@@ -54,7 +54,7 @@ const Footer = () => {
                                 href="https://github.com/sadhin28"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="p-2 bg-card hover:bg-green-500/20 rounded-lg transition-all duration-300 hover:scale-110 border border-border hover:border-primary"
+                                className="p-2 bg-card hover:border-green-500 rounded-lg transition-all duration-300 hover:scale-110 border border-border hover:border-primary"
                             >
                                 <BsGithub className="h-5 w-5" />
                             </a>
@@ -62,7 +62,7 @@ const Footer = () => {
                                 href="https://www.linkedin.com/in/taosif-bin-sadhin-527899368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="p-2 bg-card hover:bg-green-500/20 rounded-lg transition-all duration-300 hover:scale-110 border border-border hover:border-primary"
+                                className="p-2 bg-card hover:border-green-500 rounded-lg transition-all duration-300 hover:scale-110 border border-border hover:border-primary"
                             >
                                 <Linkedin className="h-5 w-5" />
                             </a>
@@ -71,7 +71,7 @@ const Footer = () => {
                                 title="Email"
                                 value="taosifbinsadhincse@gmail.com"
                                 href="mailto:hello@developer.com"
-                                className="p-2 bg-card hover:bg-green-500/20 rounded-lg transition-all duration-300 hover:scale-110 border border-border hover:border-primary"
+                                className="p-2 bg-card hover:border-green-500 rounded-lg transition-all duration-300 hover:scale-110 border border-border hover:border-primary"
                             >
                                 <Mail className="h-5 w-5" />
                             </a>
@@ -79,8 +79,7 @@ const Footer = () => {
                        
                     </div>
                 </div>
-
-                {/* Bottom Bar */}
+                {/* Copyright */}
                 <div className="mt-12 pt-8 text-center border-t border-border">
                   
                         <p className="text-muted-foreground text-sm">

@@ -82,11 +82,11 @@ const ContactForm = () => {
         }
     ];
     return (
-        <div >
+        <div>
 
             <div className="md:flex items-center  justify-around py-0">
 
-                <div className="md:w-1/2 px-4 text-gray-300">
+                <div className="md:w-1/2 px-4 text-gray-400">
                     <h2 id="contact" className="text-3xl  md:text-4xl font-bold text-white py-3">
                         Get In <span className="text-red-500">Touch</span>
                     </h2>
@@ -199,8 +199,9 @@ const ContactForm = () => {
 
                                 <div className="text-center">
                                     <ReactiveButton outline
-                                        type="submit"
-                                        color="primary"
+                                       className="rounded"
+                                       type="submit"
+                                        color="green"
                                         idleText='Send Message'
                                         size="lerge"
                                     />

@@ -61,7 +61,7 @@ const Projects = () => {
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 animate-fade-in-up">
                         Featured <span className="text-red-500">Projects</span>
                     </h2>
-                    <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
+                    <p className="text-xl text-gray-400 text-muted-foreground max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
                         A showcase of my MERN stack applications demonstrating full-stack development capabilities
                     </p>
                 </div>

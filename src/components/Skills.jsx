@@ -41,7 +41,7 @@ const Skills = () => {
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 animate-fade-in-up">
                         My <span className="text-red-500">Skills</span>
                     </h2>
-                    <p className="text-xl text-muted-foreground max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
+                    <p className="text-xl text-gray-400 text-muted-foreground max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
                         A comprehensive toolkit for building modern web applications from frontend to backend
                     </p>
                 </div>
@@ -81,7 +81,7 @@ const Skills = () => {
 
                 {/* Additional Tech Stack */}
                 <div className="mt-16 text-center animate-fade-in-up animate-delay-600">
-                    <h3 className="text-xl font-semibold mb-6">Technologies I Work With</h3>
+                    <h3 className="text-xl  font-semibold mb-6">Technologies I Work With</h3>
                     <div className="flex flex-wrap justify-center gap-4">
                         {[
                             "React", "Node.js", "Express.js", "MongoDB", "JavaScript", "TypeScript",

@@ -1,8 +1,8 @@
-import { Github, GithubIcon, Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import { GrGithub } from "react-icons/gr";
 import { TypeAnimation } from "react-type-animation";
 import ReactiveButton from "reactive-button";
-
+import profileImg from '../assets/sadhin.jpg'
 const Hero = () => {
       const scrollToSection = (id) => {
         console.log(id)
@@ -17,7 +17,7 @@ const Hero = () => {
           {/* Left div */}
       <div className="mt-10 md:mt-20 md:w-1/2 text-center md:text-left">
         <div className="space-y-4">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
+          <h1 className="text-2xl  sm:text-3xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
             Hi, I am &nbsp;
             <TypeAnimation
               sequence={[
@@ -33,7 +33,7 @@ const Hero = () => {
             />
           </h1>
 
-          <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl animate-fade-in-up animate-delay-200 text-justify">
+          <p className="text-xl text-gray-400 sm:text-2xl text-muted-foreground max-w-3xl animate-fade-in-up animate-delay-200 text-justify">
             Crafting seamless full-stack experiences with MongoDB, Express.js, React, and Node.js
           </p>
         </div>
@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
             <img
               className="rounded-full object-cover w-full h-full animate-float"
-              src="https://static.vecteezy.com/system/resources/previews/024/183/502/non_2x/male-avatar-portrait-of-a-young-man-with-a-beard-illustration-of-male-character-in-modern-color-style-vector.jpg"
+              src={profileImg && profileImg}
               alt="profile"
             />
           </div>

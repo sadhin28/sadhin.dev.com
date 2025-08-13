@@ -42,7 +42,7 @@ const Hero = () => {
       {/* Right div */}
       <div className=" mt-10 md:mt-40 w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 relative">
         {/* Animated gradient border */}
-        <div className="absolute inset-0 rounded-full p-[3px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 to-red-500">
+        <div className="absolute inset-0 rounded-full p-[3px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 to-red-500 to-green-500">
           <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
             <img
               className="rounded-full object-cover w-full h-full animate-float"

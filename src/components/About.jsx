@@ -54,7 +54,7 @@ const About = () => {
                             {["JavaScript", "TypeScript", "React", "Node.js", "Express.js", "MongoDB"].map((tech) => (
                                 <span
                                     key={tech}
-                                    className="px-3  py-1 bg-green-400/40  rounded-full text-sm font-medium"
+                                    className="px-3  py-1 bg-green-400/40 text-white  rounded-full text-sm font-medium"
                                 >
                                     {tech}
                                 </span>

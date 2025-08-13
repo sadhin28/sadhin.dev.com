@@ -49,7 +49,7 @@ const Projects = () => {
         },
         {
             title: "Donate Bangladesh",
-            description: "",
+            description: "Donate Bangladesh” features total funds (50,000 BDT), tab navigation (Donation, History), and donation cards with impactful images, current amounts, descriptions, input fields, and vibrant “Donate Now",
             technologies: ["Html", "JavaScript", "Tailwind CSS"],
             githubUrl: "https://github.com/sadhin28/assignment5",
             liveUrl: "https://assignment5-dun.vercel.app/",

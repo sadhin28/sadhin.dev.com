@@ -6,52 +6,54 @@ import ReactiveButton from 'reactive-button';
 const Projects = () => {
     const projects = [
         {
-            title: "E-Commerce Platform",
-            description: "Full-stack MERN application with user authentication, shopping cart, payment integration, and admin dashboard. Features include product management, order tracking, and responsive design.",
-            technologies: ["React", "Node.js", "Express.js", "MongoDB", "Stripe", "JWT"],
-            githubUrl: "https://github.com",
-            liveUrl: "https://example.com",
-            image: "bg-gradient-to-br from-blue-500 to-purple-600"
+            title: "Job Portal",
+            description: "A comprehensive job portal platform designed to enable seamless interaction between job seekers and employers. The system provides full CRUD operations for managing job postings, secure authentication, and a streamlined job application process.",
+            technologies: ["React", "TailwindCss", "Node.js", "MongoDB", "React Router", "Firebase"],
+            githubUrl: "https://github.com/sadhin28/Job-Portal-client",
+            liveUrl: "https://job-portal-72009.web.app/",
+            image: "https://i.ibb.co.com/3y9Vpn0w/Screenshot-2025-08-13-164956.png"
+        },
+
+        {
+            title: "Chill Gamer ",
+            description: "Chill Gamer is a clean, responsive, and user-friendly single-page application (SPA) that allows gamers to explore, share, and manage reviews of their favorite games. It is designed to provide a seamless and “chill” experience for every user, from casual players to hardcore fans.",
+            technologies: ["React", "TailwindCss", "Firebase", "Node.js", "MongoDB"],
+            githubUrl: "https://github.com/sadhin28/ChillGamer-Client",
+            liveUrl: "https://chill-gemer.web.app/",
+            image: "https://i.ibb.co.com/ZzMW08z2/Screenshot-2025-08-13-160257.png"
+        },
+
+        {
+            title: "Discount Pro",
+            description: "Discount PRO is a sleek and user-friendly single-page web application built to help users in Bangladesh find and use discount coupons from popular e-commerce brands. With features like Google authentication, brand-wise coupon listings, and easy code copying, users can save money effortlessly.",
+            technologies: ["React", "Firebase", "Authentication", "React Router",],
+            githubUrl: "https://github.com/sadhin28/Discount-Pro-A9-Project",
+            liveUrl: "https://discount-pro-95f08.web.app/",
+            image: "https://i.ibb.co.com/k6D6J3ZV/Screenshot-2025-08-13-165340.png"
         },
         {
-            title: "Task Management App",
-            description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, team collaboration features, and deadline tracking.",
-            technologies: ["React", "Socket.io", "Express.js", "MongoDB", "Material-UI"],
-            githubUrl: "https://github.com",
-            liveUrl: "https://example.com",
-            image: "bg-gradient-to-br from-green-500 to-teal-600"
+            title: "City University Jatiotabadi Chatra Dal",
+            description: "Modern post application with real-time uploading, Image sharing,  and user presence indicators.",
+            technologies: ["React", "Node.js", "Express.js", "MongoDB", "Firebase Auth"],
+            githubUrl: "https://github.com/sadhin28/My-Dragon-News",
+            liveUrl: "https://dragon-news-9c86c.web.app/",
+            image: "https://i.ibb.co.com/KxhzFcPK/Screenshot-2025-08-13-170053.png"
         },
         {
-            title: "Social Media Dashboard",
-            description: "Analytics dashboard for social media management with data visualization, post scheduling, engagement metrics, and multi-platform integration.",
-            technologies: ["React", "Chart.js", "Node.js", "Express.js", "MongoDB"],
-            githubUrl: "https://github.com",
-            liveUrl: "https://example.com",
-            image: "bg-gradient-to-br from-orange-500 to-red-600"
+            title: "Peddy Project",
+            description: "A user-friendly online platform that connects loving homes with pets in need. Browse available cats, dogs, and other animals, learn their stories, and apply for adoption—all in one place. Making pet adoption easier, safer, and more compassionate.",
+            technologies: ["Html", "TaolwindCss", "JavaScript", "DaisyUi"],
+            githubUrl: "https://github.com/sadhin28/A6-peddy-project",
+            liveUrl: "https://a6-peddy-project.vercel.app/",
+            image: "https://i.ibb.co.com/HT5jCNmv/Screenshot-2025-08-13-171410.png"
         },
         {
-            title: "Real-time Chat Application",
-            description: "Modern chat application with real-time messaging, file sharing, group chats, message encryption, and user presence indicators.",
-            technologies: ["React", "Socket.io", "Node.js", "Express.js", "MongoDB"],
-            githubUrl: "https://github.com",
-            liveUrl: "https://example.com",
-            image: "bg-gradient-to-br from-purple-500 to-pink-600"
-        },
-        {
-            title: "Blog Platform",
-            description: "Full-featured blogging platform with rich text editor, comment system, user profiles, SEO optimization, and content management system.",
-            technologies: ["React", "Node.js", "Express.js", "MongoDB", "Quill.js"],
-            githubUrl: "https://github.com",
-            liveUrl: "https://example.com",
-            image: "bg-gradient-to-br from-indigo-500 to-blue-600"
-        },
-        {
-            title: "Weather Dashboard",
-            description: "Weather application with location-based forecasts, interactive maps, weather alerts, historical data, and customizable widgets.",
-            technologies: ["React", "OpenWeather API", "Chart.js", "Tailwind CSS"],
-            githubUrl: "https://github.com",
-            liveUrl: "https://example.com",
-            image: "bg-gradient-to-br from-cyan-500 to-blue-600"
+            title: "Donate Bangladesh",
+            description: "",
+            technologies: ["Html", "JavaScript", "Tailwind CSS"],
+            githubUrl: "https://github.com/sadhin28/assignment5",
+            liveUrl: "https://assignment5-dun.vercel.app/",
+            image: "https://i.ibb.co.com/pvb382RS/Screenshot-2025-08-13-171954.png"
         }
     ];
     return (
@@ -74,11 +76,13 @@ const Projects = () => {
                             style={{ animationDelay: `${index * 0.1}s` }}
                         >
                             {/* Project Image/Gradient */}
-                            <div className={`h-48 ${project.image} relative overflow-hidden`}>
-                                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-300"></div>
-                                <div className="absolute top-4 right-4">
-                                    <Code className="h-6 w-6 text-white opacity-80" />
+
+                            <div className={`h-48  relative overflow-hidden`}>
+
+                                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-300">
+                                    <img src={project.image} alt="" />
                                 </div>
+
                             </div>
 
                             {/* Project Content */}
@@ -108,26 +112,26 @@ const Projects = () => {
                                         className='rounded'
                                         color="green"
                                         idleText={
-                                              <a className='flex' href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                                        <BsGithub className="mr-2 h-4 w-4" />
-                                        Code
-                                    </a>
+                                            <a className='flex' href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                                                <BsGithub className="mr-2 h-4 w-4" />
+                                                Code
+                                            </a>
                                         }
                                         size="lerge"
                                     />
-                                    <ReactiveButton 
+                                    <ReactiveButton
                                         className='rounded'
                                         color="primary"
                                         idleText={
-                                             <a className='flex' href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                                        <ExternalLink className="mr-2 h-4 w-4" />
-                                        Live Demo
-                                    </a>
+                                            <a className='flex' href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                                                <ExternalLink className="mr-2 h-4 w-4" />
+                                                Live Demo
+                                            </a>
                                         }
                                         size="lerge"
                                     />
-                                  
-                                   
+
+
 
                                 </div>
                             </div>

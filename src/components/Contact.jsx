@@ -84,7 +84,7 @@ const ContactForm = () => {
     return (
         <div>
 
-            <div className="md:flex items-center  justify-around py-0">
+            <div className="md:flex items-center justify-around py-0">
 
                 <div className="md:w-1/2 px-4 text-gray-400">
                     <h2 id="contact" className="text-3xl  md:text-4xl font-bold text-white py-3">

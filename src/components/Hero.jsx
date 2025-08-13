@@ -13,11 +13,11 @@ const Hero = () => {
   };
   return (
     <div id="home" className="md:mb-20 mb-10">
-       <div className="flex mt-10 flex-col md:flex-row justify-around items-center  px-4">
+       <div className="flex  flex-col md:flex-row justify-around items-center  px-4">
           {/* Left div */}
-      <div className="mt-10 md:mt-20 md:w-1/2 text-center md:text-left">
+      <div className="mt-20 md:mt-20 md:w-1/2 text-center md:text-left">
         <div className="space-y-4">
-          <h1 className="text-2xl  sm:text-3xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
+          <h1 className="text-xl  sm:text-3xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
             Hi, I am &nbsp;
             <TypeAnimation
               sequence={[

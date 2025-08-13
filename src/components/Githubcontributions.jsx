@@ -55,15 +55,15 @@ const GitHubContributions = () => {
         <div >
         <label
           htmlFor="year-select"
-          className="text-white mr-2 block mb-2"
+          className="text-white mr-2 block mb-2 font-bold"
         >
-          Select Year:
+          Select Year
         </label>
         <select
           id="year-select"
           value={year}
           onChange={(e) => setYear(parseInt(e.target.value))}
-          className={`md:my-0 my-3 bg-[#161b22] text-white p-2 rounded border border-gray-700 ${
+          className={`md:my-0 my-3 bg-[#222E3FFF] text-white p-2 rounded border border-gray-700 ${
             selectFullWidth ? "w-full" : "w-auto"
           }`}
         >
@@ -75,7 +75,7 @@ const GitHubContributions = () => {
         </select>
       </div>
       <div
-        className={`border p-5 border hover:border-green-600 overflow-x-auto md:w-full ${containerPadding} w-full max-w-[900px]`}
+        className={`border p-5 border rounded-xl hover:border-green-600 overflow-x-auto md:w-full ${containerPadding} w-full max-w-[900px]`}
         style={{ WebkitOverflowScrolling: "touch" }} // smooth scroll on iOS
       >
         <GitHubCalendar

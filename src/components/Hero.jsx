@@ -17,7 +17,7 @@ const Hero = () => {
           {/* Left div */}
       <div className="mt-20 md:mt-20 md:w-1/2 text-center md:text-left">
         <div className="space-y-4">
-          <h1 className="text-xl  sm:text-3xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
+          <h1 className="md:text-xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
             Hi, I am &nbsp;
             <TypeAnimation
               sequence={[
@@ -33,7 +33,7 @@ const Hero = () => {
             />
           </h1>
 
-          <p className="text-gray-400 md:max-w-md text-sm md:text-xl text-muted-foreground max-w-3xl animate-fade-in-up animate-delay-200 text-justify">
+          <p className="text-gray-400 md:max-w-md text-sm md:text-xl text-muted-foreground max-w-3xl animate-fade-in-up animate-delay-200 ">
             Crafting seamless full-stack experiences with MongoDB,Express.js, React, and Node.js
           </p>
         </div>

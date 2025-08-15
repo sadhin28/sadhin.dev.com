@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed text-white top-0 w-full z-50  backdrop-blur-lg border-b border-black border-border">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto  sm:px-6 lg:px-1 px-4">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 text-2xl font-bold text-blue-600">
@@ -65,7 +65,7 @@ const Navbar = () => {
                     element.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="block hover:rounded-xl w-full hover:border hover:border-blue-500 text-start p-2  text-white font-bold  hover:text-blue-600 transition"
+                className="block hover:rounded-xl w-full hover:border hover:border-green-500 text-start p-2  text-white font-bold  hover:text-green-600 transition"
                
               >
                 {link.name}

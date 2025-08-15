@@ -12,7 +12,7 @@ const Hero = () => {
     }
   };
   return (
-    <div id="home" className="md:mb-20 mb-10">
+    <div id="home" className="">
        <div className="flex  flex-col md:flex-row justify-around items-center  px-4">
           {/* Left div */}
       <div className="mt-20 md:mt-20 md:w-1/2 text-center md:text-left">

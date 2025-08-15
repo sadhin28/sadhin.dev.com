@@ -82,12 +82,12 @@ const ContactForm = () => {
         }
     ];
     return (
-        <div>
+        <div id="contact" className="md:px-2 lg:px-10 py-16">
 
-            <div className="md:flex items-center justify-around py-0">
+            <div className="lg:px-10 md:flex items-center justify-around py-0">
 
-                <div className="md:w-1/2 px-4 text-gray-400">
-                    <h2 id="contact" className="text-3xl  md:text-4xl font-bold text-white py-3">
+                <div className="px-4 text-gray-400 md:w-1/2">
+                    <h2  className="text-3xl md:text-start text-center md:py-2   md:text-4xl font-bold text-white py-4">
                         Get In <span className="text-green-500">Touch</span>
                     </h2>
                     <p className="text-justify">I'm always excited to collaborate on new projects and discuss innovative solutions. Whether you need a full-stack web application, consultation on MERN stack development, or just want to say hello, I'd love to hear from you.</p>
@@ -131,8 +131,8 @@ const ContactForm = () => {
                 </div>
 
                 <div>
-                    <section className="w-full px-4 py-12  text-white">
-                        <div className="max-w-4xl mx-auto bg-gray-900/20 p-8 rounded-lg shadow-md border hover:shadow-lg hover:border-green-600">
+                    <section className="w-full  px-4 py-12  text-white">
+                        <div className="bg-gray-900/20 p-8 rounded-lg shadow-md border hover:shadow-lg hover:border-green-600">
 
                             <form onSubmit={sendEmail} className="space-y-6">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

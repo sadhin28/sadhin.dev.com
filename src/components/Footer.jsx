@@ -83,7 +83,7 @@ const Footer = () => {
                 <div className="mt-12 pt-8 text-center border-t border-border">
                   
                         <p className="text-muted-foreground text-sm">
-                            © {currentYear} Taosif Bin Sadhin. All rights reserved.
+                           <span className="text-green-500"> ©</span> {currentYear} TAOSIF BIN SADHIN. All rights reserved.
                         </p>
                         
                    
